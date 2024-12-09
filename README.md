@@ -6,14 +6,14 @@
 
    ```txt
    datasets/ breakfast / features / featuresFiles.npy
-   					/ groundTruth / gtFiles.txt
-   					/ splits / filesSplit.bundle
-   					/ mapping.txt
+                       / groundTruth / gtFiles.txt
+   					     / splits / filesSplit.bundle
+   					     / mapping.txt
    					
-   		/ 50Salads / features / featuresFiles.npy
-   					/ groundTruth / gtFiles.txt
-   					/ splits / filesSplit.bundle
-   					/ mapping.txt
+   		  / 50Salads / features / featuresFiles.npy
+   					    / groundTruth / gtFiles.txt
+   					    / splits / filesSplit.bundle
+   					    / mapping.txt
    ```
 ## 运行
 2. 在Linux中或在bash命令窗口执行scripts中的bash命令文件，即可开始训练，训练参数可以自行调整
