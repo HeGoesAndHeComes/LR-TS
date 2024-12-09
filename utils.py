@@ -1,5 +1,5 @@
 '''
-utility functions
+utility functions used in LR-TS
 '''
 import numpy as np
 import torch
