@@ -8,11 +8,13 @@
    datasets
    ->breakfast
    -->features --->featuresFiles.npy
+   -->groundTruth --->gtFiles.txt
    -->splits   --->filesSplit.bundle
    -->mapping.txt
 
    ->50Salads
    -->features --->featuresFiles.npy
+   -->groundTruth --->gtFiles.txt
    -->splits   --->filesSplit.bundle
    -->mapping.txt
    ```
