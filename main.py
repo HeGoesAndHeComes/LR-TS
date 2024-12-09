@@ -20,7 +20,6 @@ import pickle
 
 device = torch.device('cuda:0')
 
-
 # Seed fix
 seed = 13452
 random.seed(seed)
