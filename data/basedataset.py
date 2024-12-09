@@ -9,7 +9,6 @@ from utils import *
 import pdb
 import random
 
-
 class BaseDataset(Dataset):
     def __init__(self, vid_list, actions_dict, features_path, gt_path, pad_idx, n_class,
                 n_query=8,  mode='train', obs_perc=0.2, args=None):
