@@ -48,7 +48,6 @@ parser.add_argument("--seg", action='store_true', help='action segmentation')
 parser.add_argument("--anticipate", action='store_true', help='future anticipation')
 parser.add_argument("--pos_emb", action='store_true', help='positional embedding')
 parser.add_argument("--max_pos_len", type=int, default=2000, help='position embedding number for linear interpolation')
-
 #Test on GT or decoded input
 parser.add_argument("--input_type", default="i3d_transcript", help="select input type: [\"decoded\", \"gt\"]")
 parser.add_argument("--runs", default=0, help="save runs")
