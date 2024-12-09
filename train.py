@@ -9,6 +9,7 @@ from torch.optim.lr_scheduler import _LRScheduler
 from tqdm import tqdm
 import math
 from einops import rearrange
+
 def train(args, model, train_loader, optimizer, scheduler, criterion,  model_save_path, pad_idx, device):
     model.to(device)
     model.train()
