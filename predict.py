@@ -124,4 +124,3 @@ def predict(bestMoC,total,model, vid_list, args, obs_p, n_class, actions_dict, d
 
 
 
-
