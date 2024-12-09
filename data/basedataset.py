@@ -103,7 +103,6 @@ class BaseDataset(Dataset):
 
         return item
 
-
     def my_collate(self, batch):
         '''custom collate function, gets inputs as a batch, output : batch'''
 
