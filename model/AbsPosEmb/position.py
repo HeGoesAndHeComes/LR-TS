@@ -3,7 +3,6 @@ Sinusoidal position encoding
 Copy-paste from https://github.com/pytorch/tutorials/blob/04e1ba925501c2195abb3f42d494202a187e3c46/beginner_source/transformer_tutorial.py#L106 with a modification.
 
 """
-
 import torch
 import math
 import torch.nn as nn
