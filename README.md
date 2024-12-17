@@ -29,8 +29,8 @@ The dataset consists of features extracted from the Breakfast and 50Salads datas
    -->mapping.txt
    ```
 #  Calibration & Prediction
-If the code is deployed on a ""Linux"" system, you can simply run the following command. 
-However, if you attempt to debug the code on a ""Windows"" system using the VSCode editor, you need to create a terminal window and enter the following command in the bash window to run the code.
+If the code is deployed on a Linux system, you can simply run the following command. 
+However, if you attempt to debug the code on a Windows system using the VSCode editor, you need to create a terminal window and enter the following command in the bash window to run the code.
 ## Breakfast
 ### Calibration
    ```txt
