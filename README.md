@@ -32,20 +32,20 @@ The dataset consists of features extracted from the Breakfast and 50Salads datas
 If the code is deployed on a Linux system, you can simply run the following command. 
 However, if you attempt to debug the code on a Windows system using the VSCode editor, you need to create a terminal window and enter the following command in the bash window to run the code.
 ## Breakfast
-### Calibration
+### Train
    ```txt
    ./scripts/bf_train.sh 
    ```
-### Prediction
+### Predict
    ```txt
    ./scripts/bf_predict.sh 
    ```
 ## 50Salads
-### Calibration
+### Train
    ```txt
    ./scripts/50s_train.sh 
    ```
-### Prediction
+### Predict
    ```txt
    ./scripts/50s_predict.sh 
    ```
