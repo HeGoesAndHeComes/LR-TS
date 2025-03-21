@@ -1,5 +1,5 @@
 # LR-TS
-**This code repository is the implementation of "Enhancing Long-term Action Prediction via Local Motion Feature Processing with the LR-TS Model".**
+**This code repository is the implementation of "Local Motion Feature Processing for Enhanced Long-term Action Prediction in Videos".**
 # Algorithm description
 Due to the inefficiency and computational limitations of traditional Transformer architectures in handling short-term or local action details, their performance can be significantly affected when actions change rapidly within a short duration or involve multiple complex variations. Inspired by the success of global and local feature processing in the field of image processing, this paper proposes an LR-TS model based on the Transformer Encoder-Decoder architecture to address these inefficiencies and computational challenges. 
 The attention module has been innovatively redesigned.In the attention mechanism, we introduce a local window attention mechanism to capture relationships between local video frames. This mechanism is integrated with the multi-head self-attention mechanism, enabling the model to preserve global contextual awareness while effectively processing local details. For positional encoding, we adopt a rotary positional encoding strategy to enhance the model’s ability to encode local features and improve spatial awareness.
